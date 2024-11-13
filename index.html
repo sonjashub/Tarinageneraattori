@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Tarninageneraattori</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="kaikki">
+        <h1>Tarinageneraattori</h1>
+        <p>Täytä allaoleviin kenttiin ohjeen mukaiset sanat ja paina sitten Generoi-nappia!</p>
+        <form>
+            <label for="nimi">Anna nimi</label>
+            <input type="text" id="nimi" name="nimi"><br><br>
+            <label for="sukulainen1">Keksi sukulainen (esim. täti, setä, serkku)</label>
+            <input type="text" id="sukulainen1" name="sukulainen1"><br><br>
+            <label for="sukulainen2">Keksi toinen sukulainen</label>
+            <input type="text" id="sukulainen2" name="sukulainen2"><br><br>
+            <label for="adjektiivi1">Anna adjektiivi</label>
+            <input type="text" id="adjektiivi1" name="adjektiivi1"><br><br>
+            <label for="adjektiivi2">Anna adjektiivi</label>
+            <input type="text" id="adjektiivi2" name="adjektiivi2"><br><br>
+            <label for="adjektiivi3">Anna adjektiivi</label>
+            <input type="text" id="adjektiivi3" name="adjektiivi3"><br><br>
+            <label for="adjektiivi4">Anna adjektiivi (taivuta: vastaa kysymykseen "millaisena?")</label>
+            <input type="text" id="adjektiivi4" name="adjektiivi4"><br><br>
+            <label for="kaupunki">Anna kaupunki (oikea tai kuvitteellinen)</label>
+            <input type="text" id="kaupunki" name="kaupunki"><br><br>
+            <label for="tilaisuus">Keksi jokin tilaisuus johon tarinassa mennään (taivuta: juhliin, kouluun...)</label>
+            <input type="text" id="tilaisuus" name="tilaisuus"><br><br>
+            <label for="substantiivi">Anna jokin esine</label>
+            <input type="text" id="substantiivi" name="substantiivi"><br><br>
+            <label for="tekeminen">Keksi aktiviteetti</label>
+            <input type="text" id="tekeminen" name="tekeminen"><br><br>
+            <label for="iskulause1">Anna iskulause</label>
+            <input type="text" id="iskulause1" name="iskulause1"><br><br>
+            <label for="iskulause2">Anna vielä toinen iskulause</label>
+            <input type="text" id="iskulause2" name="iskulause2"><br><br>
+            <input type="button" value="Generoi!" onclick="generoiTarina()">
+        </form>
+        <div id="answer"></div>
+    </div>
+    <footer></footer>
+</body>
+</html>
